@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Calculadora</title>
+</head>
+<body>
+  <h1>Super Calculadora</h1>
+  
+  <section> 
+    <div class="inputs">
+      <div class="input--field">
+        <input
+          id="first_number"
+          placeholder="Primeiro Número (A)" 
+          type="number"
+        >
+      </div>
+      <div class="input--field">
+        <input
+          id="second_number"
+          placeholder="Segundo Número (B)" 
+          type="number"
+        >
+      </div>
+    </div>
+
+    <h2 class="center">Cálculos</h2>
+
+    <div class="results">
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(a + b)</h1>
+        </div>
+        <input placeholder="" id="sum" type="number" readonly>
+        <label for="sum">Soma:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(a - b)</h1>
+        </div>
+        <input placeholder="" id="subtraction1" type="number" readonly>
+        <label for="subtraction1">Subtração:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(b - a)</h1>
+        </div>
+        <input placeholder="" id="subtraction2" type="number" readonly>
+        <label for="subtraction2">Subtração:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(a * b)</h1>
+        </div>
+        <input placeholder="" id="multiplication" type="number" readonly>
+        <label for="multiplication">Multiplicação:</label>
+      </div>
+    </div>
+
+    <div class="results">
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(a / b)</h1>
+        </div>
+        <input placeholder="" id="division1" type="number" readonly>
+        <label for="division1">Divisão:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(b / a)</h1>
+        </div>
+        <input placeholder="" id="division2" type="number" readonly>
+        <label for="division2">Divisão:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(a²)</h1>
+        </div>
+        <input placeholder="" id="squareA" type="number" readonly>
+        <label for="squareA">Quadrado de a:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(b²)</h1>
+        </div>
+        <input placeholder="" id="squareB" type="number" readonly>
+        <label for="squareB">Quadrado de b:</label>
+      </div>
+    </div>
+
+    <div class="results">
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(a %)</h1>
+        </div>
+        <input placeholder="" id="dividersA" type="text" readonly>
+        <label for="dividersA">Divisores inteiros de a:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(b %)</h1>
+        </div>
+        <input placeholder="" id="dividersB" type="text" readonly>
+        <label for="dividersB">Divisores inteiros de b:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(a!)</h1>
+        </div>
+        <input placeholder="" id="factorialA" type="number" readonly>
+        <label for="factorialA">Fatorial de a:</label>
+      </div>
+      <div class="results--input">
+        <div class="results--type">
+          <h1>(b!)</h1>
+        </div>
+        <input placeholder="" id="factorialB" type="number" readonly>
+        <label for="factorialB">Fatorial de b:</label>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/javascript.js"></script>
+</body>
+</html>
